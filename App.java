@@ -14,7 +14,7 @@ public class App
     public static void main( String[] args )
     {
     	try {
-    		chuckNorris();
+    		zippopotamAPI();
     	}catch (URISyntaxException e) {
     		System.out.print("No");
     	}catch (IOException e) {
@@ -22,7 +22,7 @@ public class App
     	}
     }
     
-    public static void chuckNorris() throws URISyntaxException, IOException {
+    public static void zippopotamAPI() throws URISyntaxException, IOException {
     	
     	URIBuilder builder = new URIBuilder("https://api.zippopotam.us/us/33162");
     	//build object 
